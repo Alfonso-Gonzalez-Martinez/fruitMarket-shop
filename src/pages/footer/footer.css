@@ -1,0 +1,33 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 48, 42);
+}
+.logos-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.logos-container svg{
+    fill: white;
+    color: white;
+    margin: 3px 6px;
+}
+.logos-container svg:hover{
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.5));
+    transition: filter 0.3s ease;
+}
+.logos-container svg:active{
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.123));
+    transition: none;
+}
+.footer-container p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}

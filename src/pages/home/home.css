@@ -1,0 +1,117 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.welcome-container h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.205);
+}
+.welcome-container p{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.205);
+}
+.offers-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 200px;
+    background-color: rgba(105, 145, 110, 0.356);
+    border-radius: 5px;
+    width: 550px;
+}
+.offers-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.205);
+}
+.offers-container p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.205);
+}
+.offers-container button{
+    width: 200px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgba(45, 49, 46, 0.315);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+}
+.offers-container button:hover{
+    background-color: rgba(100, 109, 102, 0.274);
+    transition: background-color 0.3s ease;
+}
+.offers-container button:active{
+    background-color: rgba(150, 161, 153, 0.274);
+}
+
+@media (max-width: 1024px){
+    .home-container{
+        align-items: center;
+        justify-content: center;
+    }
+    .welcome-container{
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+        margin: 0 20px;
+    }
+    .welcome-container p{
+        margin-left: 0;
+    }
+    .offers-container{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .home-container{
+        justify-content: center;
+    }
+    .welcome-container h1{
+        font-size: 50px;
+    }
+    .welcome-container p{
+        font-size: 20px;
+    }
+    .offers-container{
+        height: 200px;
+        width: auto;
+        margin: 0 10px;
+    }
+    .offers-container h2{
+        font-size: 30px;
+    }
+    .offers-container p{
+        font-size: 15px;
+        text-align: center;
+    }
+}

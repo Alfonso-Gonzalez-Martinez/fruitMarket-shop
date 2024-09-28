@@ -1,0 +1,115 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    padding: 50px 0;
+}
+h2{
+    display: inline-block;
+    margin-top: 0;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    font-weight: 100;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(53, 51, 51, 0.521);
+}
+.form-inner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+}
+label{
+    margin-right: 20px;
+    width: 60px;
+}
+input{
+    font-size: 14px;
+    width: 375px;
+    border-radius: 2px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    font-size: 14px;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#submit-button{
+    width: 150px;
+    padding: 4px 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgba(51, 70, 52, 0.719);
+    font-size: 12px;
+    font-weight: 100;
+}
+#submit-button:hover{
+    background-color: rgba(51, 70, 52, 0.349);
+    transition: background-color 0.3s ease;
+}
+#submit-button:active{
+    background-color: rgba(98, 133, 101, 0.664);
+    transition: none;
+}
+@media (max-width: 550px){
+    .form-box{
+        width: 300px;
+    }
+    label{
+        margin-right: 20px;
+    }
+    input{
+        width: 240px;
+    }
+    textarea{
+        width: 215px;
+    }
+}
