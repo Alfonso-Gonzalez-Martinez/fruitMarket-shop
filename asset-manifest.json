@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/fruitMarket-shop/static/css/main.3ef0b5af.css",
+    "main.js": "/fruitMarket-shop/static/js/main.06a2f588.js",
+    "static/js/453.33e100b6.chunk.js": "/fruitMarket-shop/static/js/453.33e100b6.chunk.js",
+    "static/media/home.jpg": "/fruitMarket-shop/static/media/home.b842caec69094f336b9d.jpg",
+    "static/media/pears.jpg": "/fruitMarket-shop/static/media/pears.2acc224d306228d2324c.jpg",
+    "static/media/about.jpg": "/fruitMarket-shop/static/media/about.c31035c6de5e20fde6bb.jpg",
+    "static/media/contact.jpg": "/fruitMarket-shop/static/media/contact.3de4af15de05bc88a855.jpg",
+    "static/media/apples.jpg": "/fruitMarket-shop/static/media/apples.9c535329a109f7c7421f.jpg",
+    "static/media/cherries.jpg": "/fruitMarket-shop/static/media/cherries.05813da1370cf3e294be.jpg",
+    "static/media/logo.png": "/fruitMarket-shop/static/media/logo.bb17769c144f846b8413.png",
+    "static/media/lemon.jpg": "/fruitMarket-shop/static/media/lemon.7fe4c7ec21843f680459.jpg",
+    "static/media/pomegranate.jpg": "/fruitMarket-shop/static/media/pomegranate.57956a85aeb48cfb2356.jpg",
+    "static/media/pineapple.webp": "/fruitMarket-shop/static/media/pineapple.21f89b2a6548de73200d.webp",
+    "static/media/peach.jpg": "/fruitMarket-shop/static/media/peach.1d4944b69d7d76237a56.jpg",
+    "static/media/melon.jpg": "/fruitMarket-shop/static/media/melon.7ee1e7d7d09ecf165d27.jpg",
+    "static/media/watermelon.webp": "/fruitMarket-shop/static/media/watermelon.2c8164128094c05f9dc1.webp",
+    "static/media/bananas.jpg": "/fruitMarket-shop/static/media/bananas.89713be852a0d690c201.jpg",
+    "static/media/mandarin.webp": "/fruitMarket-shop/static/media/mandarin.260ebb3cd935e13bee93.webp",
+    "index.html": "/fruitMarket-shop/index.html",
+    "main.3ef0b5af.css.map": "/fruitMarket-shop/static/css/main.3ef0b5af.css.map",
+    "main.06a2f588.js.map": "/fruitMarket-shop/static/js/main.06a2f588.js.map",
+    "453.33e100b6.chunk.js.map": "/fruitMarket-shop/static/js/453.33e100b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ef0b5af.css",
+    "static/js/main.06a2f588.js"
+  ]
+}
