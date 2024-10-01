@@ -1,5 +1,5 @@
 import './App.css';
-import {HashRouter as Router, Routes, Route} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route} from 'react-router-dom' // HashRouter instead of BrowserRouter for Git Pages
 import Navbar from './components/Navbar.js'
 import Home from './pages/home/Home.js'
 import About from './pages/about/About.js'
