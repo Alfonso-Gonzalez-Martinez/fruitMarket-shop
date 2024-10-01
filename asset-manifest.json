@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fruitMarket-shop/static/css/main.3ef0b5af.css",
-    "main.js": "/fruitMarket-shop/static/js/main.7b7dc538.js",
+    "main.js": "/fruitMarket-shop/static/js/main.315524d2.js",
     "static/js/453.33e100b6.chunk.js": "/fruitMarket-shop/static/js/453.33e100b6.chunk.js",
     "static/media/home.jpg": "/fruitMarket-shop/static/media/home.b842caec69094f336b9d.jpg",
     "static/media/pears.jpg": "/fruitMarket-shop/static/media/pears.2acc224d306228d2324c.jpg",
@@ -20,11 +20,11 @@
     "static/media/mandarin.webp": "/fruitMarket-shop/static/media/mandarin.260ebb3cd935e13bee93.webp",
     "index.html": "/fruitMarket-shop/index.html",
     "main.3ef0b5af.css.map": "/fruitMarket-shop/static/css/main.3ef0b5af.css.map",
-    "main.7b7dc538.js.map": "/fruitMarket-shop/static/js/main.7b7dc538.js.map",
+    "main.315524d2.js.map": "/fruitMarket-shop/static/js/main.315524d2.js.map",
     "453.33e100b6.chunk.js.map": "/fruitMarket-shop/static/js/453.33e100b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef0b5af.css",
-    "static/js/main.7b7dc538.js"
+    "static/js/main.315524d2.js"
   ]
 }
