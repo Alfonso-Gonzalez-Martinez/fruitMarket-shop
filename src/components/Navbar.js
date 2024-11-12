@@ -15,7 +15,7 @@ function Navbar(){
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/shop">Shop</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><Link id="cart-link" to="/cart"><ShoppingCart id="cart-logo" size={32}/></Link></li>
+                    <li><Link id="cart-link" to="/cart" data-testid="cart-link"><ShoppingCart id="cart-logo" size={32}/></Link></li>
                 </ul>
             </div>
         </div>

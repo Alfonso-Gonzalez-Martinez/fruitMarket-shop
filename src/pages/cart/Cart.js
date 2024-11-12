@@ -1,8 +1,8 @@
 import { PRODUCTS } from "../../products";
 import { ShopContext } from '../../context/shop-context';
 import { useContext } from "react";
-import CartItem from "./CartItem";
 import { useNavigate } from "react-router-dom";
+import CartItem from "./CartItem";
 import './Cart.css'
 
 

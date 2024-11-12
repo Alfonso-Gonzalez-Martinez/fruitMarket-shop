@@ -1,8 +1,14 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+describe('App Component', () => {
+    test('renders Home page by default', () => {
+      render(
+            <App />
+    );
+        expect(screen.getByText('Welcome to Fruit Market')).toBeInTheDocument();
+        expect(screen.getByText('Home')).toBeInTheDocument();
+        expect(screen.getByText(/© Fruit Market/i)).toBeInTheDocument();
+    });
 });

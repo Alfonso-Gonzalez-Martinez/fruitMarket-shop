@@ -6,8 +6,8 @@ import './footer.css'
 
 function Footer(){
     return(
-        <div className="footer-container">
-            <div className="logos-container">
+        <div className="footer-container" data-testid="footer-container">
+            <div className="logos-container" data-testid="logos-container">
                 <Link><FacebookLogo size={40} /></Link>
                 <Link><InstagramLogo size={40} /></Link>
                 <Link><YoutubeLogo size={40} /></Link>

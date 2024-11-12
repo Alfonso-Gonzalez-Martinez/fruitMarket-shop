@@ -17,15 +17,15 @@ const ContactForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Form submitted:', formData);
-        alert(`'Thank you ${formData.name} for contacting us!'`);
+        alert(`Thank you ${formData.name} for contacting us!`);
         setFormData({name: '', email: '', message: ''})
     };
 
     return (
-        <div className="contact-container" style={{backgroundImage: `url(${contactImage})`}}>
-            <div className="form-container">
+        <div className="contact-container" style={{backgroundImage: `url(${contactImage})`}} data-testid="contact-container">
+            <div className="form-container" data-testid="form-container">
                 <h2>Contact Us - Fresh Fruit Market</h2>
-                <div className="form-box"> 
+                <div className="form-box" data-testid="form-box"> 
                     <form onSubmit={handleSubmit}>
                         <div className="form-inner-box">
                             <div className="input">

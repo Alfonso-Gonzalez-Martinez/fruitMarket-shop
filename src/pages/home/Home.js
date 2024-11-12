@@ -4,7 +4,7 @@ import './home.css'
 
 function Home(){
     return(
-        <div className="home-container" style={{backgroundImage: `url(${homeImage})`}}>
+        <div className="home-container" style={{backgroundImage: `url(${homeImage})`}} data-testid="home-container">
             <div className="welcome-container" >
                 <h1>Welcome to Fruit Market</h1>
                 <p>Take a look at our fresh fruits selection!</p>
